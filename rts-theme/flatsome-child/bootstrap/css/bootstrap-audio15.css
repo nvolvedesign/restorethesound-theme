@@ -1,0 +1,934 @@
+/* -- Header START -- */
+
+.container {
+    width: 100% !important;
+}
+
+.navbar a {
+	color: #adadad;
+	text-decoration: none;
+	
+}
+
+.navbar a:hover {
+	color: #666;
+}
+
+.navbar a:active {
+	color: #adadad;
+}
+
+.navbar a:focus, {
+    color: #777;
+}
+
+a:focus, a:hover {
+    color: #777 !important;
+    text-decoration: underline;
+}
+
+.navbar-color {
+    background-color: #f7f7f7;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background: #adadad;
+}
+
+.list-group-item {
+    font-weight: 300;
+}
+
+/* -- Header END -- */
+
+.top-row {
+	width: 100%;
+	height: 600px;
+	background: url() #563fb5;
+	background-position: center center;
+	background-size: cover;
+	padding: 80px 0 0 0;
+}
+
+.top-row-box {
+	width: 545px;
+	height: auto;
+	margin: 90px auto 0 auto;
+}
+
+.audio15-container {
+	margin-top: 60px;
+	width: 860px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.list-group-item {
+	background-color: none !important;
+	z-index: -1;
+}
+
+.list-group {
+	/* padding-left: 20px !important; */
+	padding-left: 0;
+    margin-bottom: 20px;
+    width: 320px;
+    float: left;
+}
+
+.better-xp img{
+ 	float: none;
+    width: 580px;
+    height: auto;
+}
+
+
+input, select, textarea {
+	color: black;
+}
+
+label {
+	margin-top: 5px;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+.paragraph-message {
+    width: auto;
+    font-size: 20px;
+    line-height: 135%;
+}
+
+.main-title {
+	font-size: 32px;
+	margin: 30px 0;
+	text-align: left;
+}
+
+.sub-title {
+	font-size: 24px;
+	margin: 24px 0;
+}
+
+.margin-top {
+	margin-top: 30px;
+}
+
+.a15-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #3EA0FD;
+    padding: 13px 23px;
+    font-size: 28px;
+    line-height: 1.3333333;
+    margin-top: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 58px -11px #252525;
+}
+
+.a15-button:hover, .a15-button-center:hover {
+	background-color: #3180CA;	
+}
+
+.a15-button:active, .a15-button-center:active {
+	transform: translateY(2px);
+}
+
+.a15-button-center {
+    color: #fff;
+    background-color: #3EA0FD;
+    padding: 13px 23px;
+    font-size: 28px;
+    line-height: 1.3333333;
+    margin: 24px auto;
+    text-align: center;
+    display: table;
+    border-radius: 5px;
+    box-shadow: 0px 17px 58px -11px #ababab;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.product-msg-header {
+	font-size: 18px;
+	display: block;
+	margin-top: 20px;
+	line-height: 28px;
+}
+
+.box-header-left {
+	width: 240px;
+	margin: 0;
+	float: left;
+}
+
+.box-header-left img {
+	width: 240px;
+	box-shadow: 0px 20px 44px -11px #252525;
+}
+
+.box-header-right {
+	width: 240px;
+	float: left;
+	margin: 15px 0 0 45px;
+}
+
+.box-header-right img{
+	    width: 185px;
+}
+
+.youtube-cartoon {
+	float: right;
+	width: 40%;
+	height: auto;
+	margin: 0 0 20px 20px;
+}
+
+.collection-img {
+	float: left;
+	width: auto;
+	height: 320px;
+	margin: 10px 20px 0 0px;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 36px;
+}
+
+#music-is-power {
+    color: #f58d40;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#home-page {
+    margin-top: 100px;
+}
+
+#home-page-production {
+    line-height: 100%;
+    font-size: 30px;
+}
+
+#main-content {
+    margin-top: 100px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.free-song-msg {
+	font-size: 28px;
+    margin: 15px 0;
+    line-height: 28px;
+    text-align: left;
+	color: #1c5573 !important;
+}
+
+.free-song-button {
+    display: inline-block;
+    color: #1c5573 !important;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #f1f1f1 !important;
+}
+
+.free-song-button:hover {
+	background-color: #f5f5f5 !important;
+}
+
+.free-song-button a {
+	text-decoration: none;
+}
+
+.form-group {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.form-title-message {
+	text-align: center;
+	font-size: 28px;
+    margin: 15px 0;
+    line-height: 30px;
+}
+
+#form-submit {
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+	background-color: #002E46;
+	color: white;
+	font-size: 20px;
+}
+
+input#user_login.input-text input {
+    color: black;
+}
+
+.glyphicon-rts {
+	padding-right: 5px; 
+}
+
+.list-group-item{
+	border: none !important;
+}
+
+/* -- Category block (3 images) -- */
+
+.category-box-1 {
+	background-image: url("https://restorethesound.com/wp-content/uploads/2016/07/genre-inspiration-2.jpg");
+	height: 260px;
+	background-size: cover;
+	margin-right: 55px;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+.category-box-2 {
+	background-image: url("https://restorethesound.com/wp-content/uploads/2016/07/genre-cinema.jpg");
+	height: 260px;
+	background-size: cover;
+	margin-right: 55px;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+.category-box-3 {
+	background-image: url("https://restorethesound.com/wp-content/uploads/2016/07/genre-ambient-2.jpg");
+	height: 260px;
+	background-size: cover;
+	margin-right: 0;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+/* -- End Category block (3 images) -- */
+
+/* -- Success videos -- */
+
+.success-container-left {
+	width: 395px;
+	height: auto;
+	float: left;
+}
+
+.success-container-right {
+	width: 395px;
+	height: auto;
+	float: right;
+}
+
+.success-video-left {
+	background-image: url("https://restorethesound.com/wp-content/uploads/2016/08/funkertactical-success-video.jpg");
+	width: 395px;
+	height: 240px;
+	float: left;
+	background-size: cover;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+.success-video-right {
+	background-image: url("https://restorethesound.com/wp-content/uploads/2016/08/centerpoint-success-video.jpg");
+	width: 395px;
+	height: 240px;
+	float: right;
+	background-size: cover;
+	box-shadow: 0px 20px 44px -11px #8e8e8e;
+}
+
+.success-video-message {
+	margin: 25px 0;
+	float: left;
+}
+
+/* -- End Success videos -- */
+
+.col-sm-4 {
+    width: 250px !important;
+}
+
+.category-a15-button {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(58, 4, 175, 0.61);
+    padding: 34% 0;
+    font-size: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.play-icon-size{
+	font-size: 44px;
+}
+/*text color*/
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+
+.opensans {
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.opensans300 {
+	 font-weight: 300;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.opensans400 {
+	 font-weight: 400;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.opensans600 {
+	 font-weight: 600;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.opensans700 {
+	 font-weight: 700;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.opensans800 {
+	 font-weight: 800;
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.a15-color-white {
+	color: #FFFFFF;
+}
+
+.a15-color-orange {
+	color: #F58D40;
+}
+
+.a15-color-blue {
+	color: #002E46;
+}
+
+.a15-color-black {
+	color: #333;
+}
+
+.text-shadow {
+	text-shadow: 0px 0px 22px #000;
+}
+
+.youtubers-cartoon{
+	margin-top: 20px;
+	width: auto;
+}
+
+.footer {
+    height: 300px !important;
+}
+
+@media only screen and (max-width: 900px){
+
+	.top-row {
+		width: auto;
+		height: 640px;
+		background-position: center center;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.top-row-box {
+		width: auto;
+		height: auto;
+		padding-top: 80px;
+		margin: 0 auto;
+	}
+
+	.product-msg-header {
+		font-size: 16px;
+		display: block;
+		margin-top: 14px;
+		line-height: 28px;
+	}
+
+	.box-header-left {
+		width: auto;
+		float: left;
+		margin: 0 auto;
+	}
+
+	.box-header-left img {
+		width: 200px;
+		box-shadow: 0px 20px 44px -11px #252525;
+	}
+
+	.box-header-right {
+		width: auto;
+		float: left;
+		margin: 0 auto !important;
+	}
+
+	.box-header-right img{
+		    width: auto;
+	}
+
+	.category-box-1 {
+		margin-right: 30px;
+	}
+
+	.category-box-2 {
+		margin-right: 30px;
+	}
+
+	.colorbox {
+	    display: none;
+	    visibility: visible;
+	    top: 256px;
+	    left: 494px;
+	    position: fixed;
+	    width: 650px;
+	    height: 420px;
+	}
+
+	.box-header-left {
+	    width: 100% !important;
+	    max-width: 100% !important;
+	    text-align: center !important;
+	    margin: 20px 0 0 0px;
+	}
+
+	.box-header-right {
+	    width: 100% !important;
+	    text-align: center;
+	    margin-top: 0;
+	}
+
+	.box-header-right img{
+	    display: none;
+	}
+
+	.product-msg-header {
+	    font-size: 20px;
+	    display: block;
+	    margin-top: 10px;
+	    line-height: 25px;
+	}
+
+	.a15-button {
+	    display: inline-block;
+	    color: #fff;
+	    padding: 13px 23px;
+	    font-size: 32px;
+	    line-height: 1.3333333;
+	    margin: 20px;
+	}
+
+	.row {
+		margin: 0 !important;
+	}
+
+	.main-title {
+	    font-size: 28px;
+	    margin: 15px 0;
+	    line-height: 28px;
+	    text-align: left;
+	}
+
+	.a15-button-center {
+	    color: #fff;
+	    padding: 13px 23px;
+	    font-size: 32px;
+	    line-height: 1.3333333;
+	    margin: 32px auto 15px auto;
+	    text-align: center;
+	    display: table;
+	}
+
+	.paragraph-message {
+	    width: 90%;
+	    font-size: 18px;
+	    line-height: 135%;
+	    margin: 0 auto;
+	}
+
+	.audio15-container {
+		width: 94%;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.col-md-4 {
+		width: 300px !important;
+		margin: 20px auto;
+		float: none !important;
+	}
+
+	.category-box-1 { 
+		height: 300px;
+	}
+
+	.category-box-2 { 
+		height: 300px;
+	}
+
+	.category-box-3 { 
+		height: 300px;
+	}
+
+	.category-box-1 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-inspiration-2.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.category-box-2 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-cinema.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.category-box-3 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-ambient-2.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.success-container-right {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.success-container-left {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.success-video-right {
+		width: 90%;
+		height: 460px;
+		float: none;
+		margin: 0 auto;
+		background-size: cover;
+		background-repeat: none;
+		background-position: top center;
+	}
+
+	.success-video-left {
+		width: 90%;
+		height: 460px;
+		float: none;
+		margin: 0 auto;
+		background-size: cover;
+		background-repeat: none;
+		background-position: top center;
+	}
+
+	.category-a15-button {
+	    color: #fff;
+	    padding: 28% 0;
+	    font-size: 32px;
+	    position: absolute;
+	    bottom: 0;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	.youtubers-cartoon{
+		margin-top: 20px;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+
+	.free-song-button {
+		display: table;
+		width: auto;
+    	margin: 24px auto;
+	    color: #1c5573 !important;
+	    text-align: center;
+	    background-color: #f1f1f1 !important;
+	   	clear: both;
+	}
+}
+
+@media only screen and (max-width: 700px){
+
+	.better-xp img{
+    	width: 100%;
+    }
+
+	.collection-img {
+        display: block;
+        float: none;
+        margin: 0 auto 30px auto;
+	}
+
+	p {
+	    line-height: 28px;
+	}
+
+	.clear-img{
+		clear: both;
+		display: block;
+	}
+
+	.youtube-cartoon {
+		float: none;
+		width: 100%;
+		height: auto;
+		margin: 20px auto;
+	}
+
+	.col-md-4 {
+		width: 70% !important;
+		margin: 20px auto;
+	}
+
+
+	.category-box-1 { 
+		width: 260px !important;
+	}
+
+	.category-box-2 { 
+		width: 260px !important;
+	}
+
+	.category-box-3 { 
+		width: 260px !important;
+	}
+
+	.success-video-right {
+		width:90%;
+		height: 400px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.success-video-left {
+		width:90%;
+		height: 400px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.audio15-container {
+		margin-top: 30px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.col-md-4 {
+		width: 80% !important;
+		margin: 20px auto;
+	}
+
+	.a15-button {
+		width: auto;
+		margin: 24px auto;
+	}
+
+	.a15-button-center {
+		width: auto;
+		margin: 24px auto;
+	}
+
+	.success-video-right {
+		width: 90%;
+		height: 270px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.success-video-left {
+		width: 90%;
+		height: 270px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+
+}
+
+
+@media only screen and (max-width: 500px){
+	
+	.product-msg-header {
+		width: 70%;
+		font-size: 16px;
+		display: block;
+		margin: 14px auto 0 auto;
+		line-height: 28px;
+	}
+
+	.col-md-4 {
+		width: 80% !important;
+		margin: 20px auto;
+		float: none !important;
+	}
+
+	#main {
+	    padding-top: 25px !important;
+	    padding-bottom: 40px;
+	}
+
+	.category-box-1 { 
+		height: 260px;
+	}
+
+	.category-box-2 { 
+		height: 260px;
+	}
+
+	.category-box-3 { 
+		height: 260px;
+	}
+
+	.category-box-1 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-inspiration-2.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.category-box-2 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-cinema.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.category-box-3 .col-md-4 .col-sm-4 .col-xs-4 {
+		background: no-repeat url("https://restorethesound.com/wp-content/uploads/2016/07/genre-ambient-2.jpg");
+		background-size: contain;
+    	width: 100%;
+    	margin: 0 auto;
+	}
+
+	.success-video-message {
+		margin: 15px 0;
+		float: left;
+	}
+
+	.success-container-right {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.success-container-left {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+
+	.success-video-right {
+		width: 90%;
+		height: 230px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.success-video-left {
+		width: 90%;
+		height: 230px;
+		float: none;
+		background-size: cover;
+		background-position: top center;
+	}
+}
+
+@media only screen and (max-width: 400px){
+
+	.top-row {
+		width: auto;
+		height: 620px;
+		background-position: top;
+		background-size: cover;
+		padding: 0;
+	}
+
+	.top-row-box {
+		width: auto;
+		height: auto;
+		padding-top: 80px;
+		margin: 0 auto;
+	}
+
+	.box-header-left {
+		width: auto;
+		float: left;
+		margin: 0 auto;
+	}
+
+	.box-header-left img {
+		width: 200px;
+		box-shadow: 0px 20px 44px -11px #252525;
+	}
+
+	.box-header-right {
+		width: auto;
+		float: left;
+		margin: 0 auto !important;
+	}
+
+	.box-header-right img{
+		    width: auto;
+	}
+
+	.success-video-right {
+		width: 90%;
+		height: 200px;
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.success-video-left {
+		width: 90%;
+		height: 200px;
+		background-size: cover;
+		background-position: top center;
+	}
+	.free-song-button {
+		display: table;
+		width: auto;
+    	margin: 24px auto;
+	    color: #1c5573 !important;
+	    text-align: center;
+	    background-color: #f1f1f1 !important;
+	   	clear: both;
+	}
+}
